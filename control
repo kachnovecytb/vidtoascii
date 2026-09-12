@@ -1,0 +1,13 @@
+Source: vidtoascii
+Section: utils
+Priority: optional
+Maintainer: kachnovec <kachnovec@example.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.2
+
+Package: vidtoascii
+Architecture: all
+Depends: ${misc:Depends}, python3, python3-opencv, python3-numpy, python3-requests, yt-dlp, ffmpeg
+Description: Terminal video player with colored ASCII pixels
+ A Python-based CLI tool that streams local videos or YouTube links 
+ directly into the terminal, rendering them as colored pixel blocks.

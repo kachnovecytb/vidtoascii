@@ -1,0 +1,5 @@
+vidtoascii (1.0.0-1) unstable; urgency=low
+
+  * Initial release for APT and Ubuntu.
+
+ -- kachnovec <kachnovec@example.com>  Sat, 12 Sep 2026 21:00:00 +0200
